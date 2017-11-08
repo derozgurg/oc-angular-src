@@ -1,0 +1,26 @@
+.oc-list-content{
+    width: auto;
+    height: 100%;
+}
+
+.oc-list-content.y-scroll{
+    overflow-y: auto;
+    overflow-x:hidden;
+
+}
+
+.oc-list-content.x-scroll{
+    overflow-x: auto;
+}
+
+.oc-list-content::-webkit-scrollbar {
+    width: 1em;
+}
+
+.oc-list-content::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.oc-list-content::-webkit-scrollbar-thumb {
+    background-color: #3498db;    
+}

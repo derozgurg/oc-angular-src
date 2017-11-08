@@ -1,0 +1,64 @@
+.oc-dragdrop-list {
+
+}
+
+.oc-drag-item:active{
+    cursor:move;
+}
+
+.oc-dragdrop-list ol {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.oc-dragdrop-list ol .oc-drag-item {
+    opacity: 1;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.oc-dragdrop-list ol .oc-drag-item .oc-dragitem-handle {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.oc-dragdrop-list ol .drop-item-place {
+    height: 42px;
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #f2fbff;
+    border: 1px dashed #b6bcbf;
+    box-sizing: border-box;
+}
+
+.oc-dragdrop-list ol .drop-item-place.succeed{
+    border:none;
+}
+
+.oc-dragdrop-list ol .drop-item-place .half-item {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}

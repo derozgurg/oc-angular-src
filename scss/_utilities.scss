@@ -1,0 +1,120 @@
+//ObjectId("56b31c46762b2cb93adee8f6")
+
+.oc-none-select{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.oc-light-backdrop{
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+       -moz-transition: opacity .3s;
+        -ms-transition: opacity .3s;
+         -o-transition: opacity .3s;
+            transition: opacity .3s;
+
+    z-index: 600;
+	position:fixed;
+	pointer-events: auto;  	
+	
+	display: block;
+	overflow: hidden;
+
+	top:0px;
+	left:0px;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;	    
+
+    background-color: transparent;   
+}
+
+.oc-light-backdrop.black-shadow, .oc-full-component.black-shadow{
+	background-color: rgba(0,0,0,.5);
+}
+
+.oc-fade-in{
+	opacity: 1 !important;
+}
+
+.oc-full-component{
+	z-index: 1032;
+	position:fixed;
+	pointer-events: auto;  	
+	
+	display: block;
+	
+
+	top:0px;
+	left:0px;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;	    
+    width: 100%;
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+//    background-color: transparent;   
+}
+
+.oc-free-com{
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+       -moz-transition: opacity .3s;
+        -ms-transition: opacity .3s;
+         -o-transition: opacity .3s;
+            transition: opacity .3s;
+    z-index:600;
+}
+
+.oc-popup-content{
+	padding: 0;
+	position: relative;
+	top:0;
+	left: 0;
+	display: inline-block;
+	background-color: white;	
+	-webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.35);	
+	
+}
+
+.pallete-row{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    box-orient:horizantal;
+    -moz-box-orient:horizantal;
+    -webkit-box-orient:horizantal;
+    
+    .color-cell{
+        width: 55px;
+   	 	height: 29px;
+    }
+}
+
+.freesize-btn{  
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
